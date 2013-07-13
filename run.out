@@ -1,0 +1,44 @@
+$ ../../hadoop-1.0.4/bin/hadoop jar word.jar  WordDriver -conf conf/core-site.xml  /input/AdventuresSherlockHomes.txt word
+13/07/13 20:48:45 INFO input.FileInputFormat: Total input paths to process : 1
+13/07/13 20:48:45 INFO util.NativeCodeLoader: Loaded the native-hadoop library
+13/07/13 20:48:45 WARN snappy.LoadSnappy: Snappy native library not loaded
+13/07/13 20:48:46 INFO mapred.JobClient: Running job: job_201307130141_0009
+13/07/13 20:48:47 INFO mapred.JobClient:  map 0% reduce 0%
+13/07/13 20:49:17 INFO mapred.JobClient:  map 100% reduce 0%
+13/07/13 20:49:41 INFO mapred.JobClient:  map 100% reduce 100%
+13/07/13 20:49:48 INFO mapred.JobClient: Job complete: job_201307130141_0009
+13/07/13 20:49:48 INFO mapred.JobClient: Counters: 29
+13/07/13 20:49:48 INFO mapred.JobClient:   Job Counters
+13/07/13 20:49:48 INFO mapred.JobClient:     Launched reduce tasks=1
+13/07/13 20:49:48 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=33512
+13/07/13 20:49:48 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+13/07/13 20:49:48 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+13/07/13 20:49:48 INFO mapred.JobClient:     Launched map tasks=1
+13/07/13 20:49:48 INFO mapred.JobClient:     Data-local map tasks=1
+13/07/13 20:49:48 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=18855
+13/07/13 20:49:48 INFO mapred.JobClient:   File Output Format Counters
+13/07/13 20:49:48 INFO mapred.JobClient:     Bytes Written=10
+13/07/13 20:49:48 INFO mapred.JobClient:   FileSystemCounters
+13/07/13 20:49:48 INFO mapred.JobClient:     FILE_BYTES_READ=19
+13/07/13 20:49:48 INFO mapred.JobClient:     HDFS_BYTES_READ=595053
+13/07/13 20:49:48 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=43191
+13/07/13 20:49:48 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=10
+13/07/13 20:49:48 INFO mapred.JobClient:   File Input Format Counters
+13/07/13 20:49:48 INFO mapred.JobClient:     Bytes Read=594933
+13/07/13 20:49:48 INFO mapred.JobClient:   Map-Reduce Framework
+13/07/13 20:49:48 INFO mapred.JobClient:     Map output materialized bytes=19
+13/07/13 20:49:48 INFO mapred.JobClient:     Map input records=13052
+13/07/13 20:49:48 INFO mapred.JobClient:     Reduce shuffle bytes=0
+13/07/13 20:49:48 INFO mapred.JobClient:     Spilled Records=2
+13/07/13 20:49:48 INFO mapred.JobClient:     Map output bytes=985334
+13/07/13 20:49:48 INFO mapred.JobClient:     Total committed heap usage (bytes)=152244224
+13/07/13 20:49:48 INFO mapred.JobClient:     CPU time spent (ms)=9700
+13/07/13 20:49:48 INFO mapred.JobClient:     Combine input records=107533
+13/07/13 20:49:48 INFO mapred.JobClient:     SPLIT_RAW_BYTES=120
+13/07/13 20:49:48 INFO mapred.JobClient:     Reduce input records=1
+13/07/13 20:49:48 INFO mapred.JobClient:     Reduce input groups=1
+13/07/13 20:49:48 INFO mapred.JobClient:     Combine output records=1
+13/07/13 20:49:48 INFO mapred.JobClient:     Physical memory (bytes) snapshot=245559296
+13/07/13 20:49:48 INFO mapred.JobClient:     Reduce output records=1
+13/07/13 20:49:48 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=1499623424
+13/07/13 20:49:48 INFO mapred.JobClient:     Map output records=107533
